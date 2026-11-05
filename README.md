@@ -11,7 +11,7 @@
 ### Planteamiento
 Se requiere un programa en Java que genere un archivo de texto con el nombre `curso.txt`, verifique si la operación tuvo éxito o si el archivo ya estaba creado, y muestre su nombre en pantalla.
 
-### Requisitos
+### Indicaciones
 - Importar las clases necesarias para manejar archivos.
 - Crear un objeto de tipo `File`.
 - Usar `createNewFile()` para crear el archivo.
@@ -27,12 +27,6 @@ Se requiere un programa en Java que genere un archivo de texto con el nombre `cu
 | `getName()` | Devuelve el nombre del archivo |
 | `IOException` | Excepción que se captura si falla la creación |
 
-### Explicación de la solución
-1. Se importan `java.io.File` y `java.io.IOException`.
-2. Dentro de un bloque `try` se crea el objeto `File` con el nombre `curso.txt`.
-3. Con un `if`, se llama a `createNewFile()`: si devuelve `true`, el archivo se creó y se muestra un mensaje de éxito; si devuelve `false`, se informa que ya existía.
-4. En ambos casos se imprime el nombre del archivo con `getName()`.
-5. El bloque `catch` captura una posible `IOException` y muestra un mensaje de error.
 
 ### Código fuente
 ```java
@@ -66,7 +60,7 @@ public class CrearFichero {
 ### Planteamiento
 Se necesita un programa en Java que reciba un mensaje escrito por teclado y lo guarde al final del archivo de texto `estudiantes.txt`, que ya debe existir, sin borrar lo que contenía antes.
 
-### Requisitos
+### Indicaciones
 - Importar las clases necesarias.
 - Crear un objeto `Scanner` para leer datos por teclado.
 - Pedir al usuario que escriba un mensaje.
@@ -89,13 +83,6 @@ Se necesita un programa en Java que reciba un mensaje escrito por teclado y lo g
 | `close()` | Cierra el archivo y libera el recurso |
 | `IOException` | Excepción que se captura si falla la escritura |
 
-### Explicación de la solución
-1. Se importan `java.io.FileWriter`, `java.io.IOException` y `java.util.Scanner`.
-2. Se crea el `Scanner` y se pide al usuario que escriba un mensaje, que se guarda en una variable `String`.
-3. Dentro de un bloque `try` se crea el `FileWriter` con `estudiantes.txt` y el parámetro `true`, para que el mensaje se añada al final.
-4. Con `write()` se guarda el mensaje seguido de un salto de línea, y luego se cierra el archivo con `close()`.
-5. Se muestra un mensaje indicando que la información se guardó correctamente.
-6. El bloque `catch` captura una posible `IOException` y muestra un mensaje de error.
 
 ### Código fuente
 ```java
@@ -127,4 +114,5 @@ public class EscribirFichero {
 ```
 
 ### Captura de pantalla
-<img width="943" height="165" alt="image" src="https://github.com/user-attachments/assets/c0d7a2d1-f4c2-4941-9599-b055bd293476" />
+<img width="943" height="176" alt="image" src="https://github.com/user-attachments/assets/24b4936f-1827-4ddf-8099-1cb40e7dc64b" />
+
