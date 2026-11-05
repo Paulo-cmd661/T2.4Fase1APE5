@@ -115,4 +115,47 @@ public class EscribirFichero {
 
 ### Captura de pantalla
 <img width="943" height="176" alt="image" src="https://github.com/user-attachments/assets/24b4936f-1827-4ddf-8099-1cb40e7dc64b" />
+---
 
+## Ejercicio 3: Eliminar un fichero en Java
+
+### Planteamiento
+Se necesita un programa en Java que elimine el archivo de texto `estudiantes.txt`, verifique si la eliminación fue exitosa y muestre un mensaje según el resultado.
+
+### Indicaciones
+- Importar la clase necesaria para trabajar con archivos.
+- Crear un objeto `File` con el nombre del archivo a eliminar.
+- Usar `delete()` para intentar eliminarlo.
+- Comprobar si la eliminación se realizó correctamente.
+- Mostrar un mensaje de confirmación si se eliminó.
+- Mostrar un mensaje indicando el problema si no se pudo eliminar.
+
+### Clases y métodos utilizados
+| Elemento | Función |
+|---|---|
+| `File` | Representa el archivo `estudiantes.txt` dentro del programa |
+| `delete()` | Intenta eliminar el archivo y devuelve `true` si lo logró o `false` si falló |
+| `if-else` | Decide qué mensaje mostrar según el resultado de `delete()` |
+| `System.out.println()` | Muestra los mensajes en pantalla |
+
+
+### Código fuente
+```java
+import java.io.File;
+
+public class EliminarFichero {
+    public static void main(String[] args) {
+        File archivo = new File("estudiantes.txt");
+
+        if (archivo.delete()) {
+            System.out.println("El archivo " + archivo.getName() + " se eliminó correctamente.");
+        } else {
+            System.out.println("No se pudo eliminar el archivo (puede que no exista o esté en uso).");
+        }
+    }
+}
+```
+
+
+### Captura de pantalla
+<img width="1003" height="173" alt="image" src="https://github.com/user-attachments/assets/1665a76a-023f-494d-86fa-39cb2c6d43a6" />
