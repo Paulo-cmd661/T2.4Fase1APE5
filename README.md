@@ -1,7 +1,9 @@
 # T2.4Fase1APE5
 
 **Asignatura:** Algoritmos y Lógica de Programación
+
 **Estudiante:** Paulo Josué Escobar Bautista
+
 **Paralelo:** 1B, Software, UTA
 
 ---
@@ -28,28 +30,6 @@ Se requiere un programa en Java que genere un archivo de texto con el nombre `cu
 | `IOException` | Excepción que se captura si falla la creación |
 
 
-### Código fuente
-```java
-import java.io.File;
-import java.io.IOException;
-
-public class CrearFichero {
-    public static void main(String[] args) {
-        try {
-            File archivo = new File("curso.txt");
-
-            if (archivo.createNewFile()) {
-                System.out.println("Archivo creado: " + archivo.getName());
-            } else {
-                System.out.println("El archivo ya existe: " + archivo.getName());
-            }
-        } catch (IOException e) {
-            System.out.println("Ocurrió un error al crear el archivo.");
-            e.printStackTrace();
-        }
-    }
-}
-```
 
 ### Captura de pantalla
 <img width="1028" height="173" alt="image" src="https://github.com/user-attachments/assets/7f13c366-872f-40e7-948d-9f987bc7fb41" />
@@ -84,34 +64,7 @@ Se necesita un programa en Java que reciba un mensaje escrito por teclado y lo g
 | `IOException` | Excepción que se captura si falla la escritura |
 
 
-### Código fuente
-```java
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.Scanner;
 
-public class EscribirFichero {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Escribe un mensaje: ");
-        String mensaje = sc.nextLine();
-
-        try {
-            FileWriter escritor = new FileWriter("estudiantes.txt", true);
-            escritor.write(mensaje + System.lineSeparator());
-            escritor.close();
-
-            System.out.println("La información se guardó correctamente.");
-        } catch (IOException e) {
-            System.out.println("Ocurrió un error al escribir en el archivo.");
-            e.printStackTrace();
-        }
-
-        sc.close();
-    }
-}
-```
 
 ### Captura de pantalla
 <img width="943" height="176" alt="image" src="https://github.com/user-attachments/assets/24b4936f-1827-4ddf-8099-1cb40e7dc64b" />
@@ -139,22 +92,6 @@ Se necesita un programa en Java que elimine el archivo de texto `estudiantes.txt
 | `System.out.println()` | Muestra los mensajes en pantalla |
 
 
-### Código fuente
-```java
-import java.io.File;
-
-public class EliminarFichero {
-    public static void main(String[] args) {
-        File archivo = new File("estudiantes.txt");
-
-        if (archivo.delete()) {
-            System.out.println("El archivo " + archivo.getName() + " se eliminó correctamente.");
-        } else {
-            System.out.println("No se pudo eliminar el archivo (puede que no exista o esté en uso).");
-        }
-    }
-}
-```
 
 
 ### Captura de pantalla
