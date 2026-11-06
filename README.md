@@ -1,10 +1,18 @@
-# T2.4Fase1APE5
+# APE-05-Ficheros
 
-**Asignatura:** Algoritmos y Lógica de Programación
+[![Java](https://img.shields.io/badge/JAVA-E38D1F?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Paulo-cmd661)
 
-**Estudiante:** Paulo Josué Escobar Bautista
+---
 
-**Paralelo:** 1B, Software, UTA
+## Información General
+
+- **Carrera:** Ingeniería en Software
+- **Asignatura:** Algoritmos y Lógica de Programación
+- **Nivel / Paralelo:** Primer Semestre — Paralelo B
+- **Actividad:** APE 5 – Ficheros
+- **Modalidad:** Presencial
+- **Nombre:** Paulo Josué Escobar Bautista
 
 ---
 
