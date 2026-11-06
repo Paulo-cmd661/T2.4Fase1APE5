@@ -1,0 +1,10 @@
+Producto: Cuaderno
+Precio: 2.5
+Cantidad: 20
+Valor total: 50.00
+-------------------
+Producto: Esfero
+Precio: 0.5
+Cantidad: 100
+Valor total: 50.00
+-------------------

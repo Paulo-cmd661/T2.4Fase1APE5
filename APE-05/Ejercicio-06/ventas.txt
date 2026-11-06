@@ -1,0 +1,10 @@
+Producto: Mouse
+Precio: 15.00 | Cantidad: 2
+Subtotal: 30.00 | Descuento: 0.00 | Total: 30.00
+-------------------
+Producto: Teclado
+Precio: 60.00 | Cantidad: 2
+Subtotal: 120.00 | Descuento: 12.00 | Total: 108.00
+-------------------
+TOTAL ACUMULADO DE VENTAS: 138.00
+
