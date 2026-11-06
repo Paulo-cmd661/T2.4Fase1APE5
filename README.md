@@ -13,7 +13,7 @@
 ### Planteamiento
 Se requiere un programa en Java que genere un archivo de texto con el nombre `curso.txt`, verifique si la operación tuvo éxito o si el archivo ya estaba creado, y muestre su nombre en pantalla.
 
-### Indicaciones
+### Requerimiento
 - Importar las clases necesarias para manejar archivos.
 - Crear un objeto de tipo `File`.
 - Usar `createNewFile()` para crear el archivo.
@@ -40,7 +40,7 @@ Se requiere un programa en Java que genere un archivo de texto con el nombre `cu
 ### Planteamiento
 Se necesita un programa en Java que reciba un mensaje escrito por teclado y lo guarde al final del archivo de texto `estudiantes.txt`, que ya debe existir, sin borrar lo que contenía antes.
 
-### Indicaciones
+### Requerimiento
 - Importar las clases necesarias.
 - Crear un objeto `Scanner` para leer datos por teclado.
 - Pedir al usuario que escriba un mensaje.
@@ -75,7 +75,7 @@ Se necesita un programa en Java que reciba un mensaje escrito por teclado y lo g
 ### Planteamiento
 Se necesita un programa en Java que elimine el archivo de texto `estudiantes.txt`, verifique si la eliminación fue exitosa y muestre un mensaje según el resultado.
 
-### Indicaciones
+### Requerimiento
 - Importar la clase necesaria para trabajar con archivos.
 - Crear un objeto `File` con el nombre del archivo a eliminar.
 - Usar `delete()` para intentar eliminarlo.
@@ -93,13 +93,13 @@ Se necesita un programa en Java que elimine el archivo de texto `estudiantes.txt
 
 # Ejercicios de APE clase 2
 
-## Ejercicio 6: Registro de estudiantes y calificaciones
+## Ejercicio 4: Registro de estudiantes y calificaciones
 
 ### Planteamiento
 
 Se requiere un programa en Java que registre los datos de 3 estudiantes (nombre y calificación) y los guarde en un archivo de texto llamado `estudiantes.txt`, de modo que cada estudiante ocupe dos líneas.
 
-### Indicaciones
+### Requerimiento
 
 - Importar las clases necesarias para manejar archivos y leer datos.
 - Crear un objeto de tipo `Scanner` para solicitar los datos.
@@ -133,7 +133,7 @@ Se requiere un programa en Java que registre los datos de 3 estudiantes (nombre 
 
 Se requiere un programa en Java que registre productos (nombre, precio y cantidad), calcule el valor total de cada uno (precio × cantidad) y lo guarde en `productos.txt` sin borrar los registros anteriores.
 
-### Indicaciones
+### Requerimiento
 
 - Importar las clases necesarias para manejar archivos y leer datos.
 - Crear un `Scanner` para solicitar nombre, precio y cantidad.
@@ -166,7 +166,7 @@ Se requiere un programa en Java que registre productos (nombre, precio y cantida
 
 Se requiere un programa en Java que registre las ventas de una tienda en `ventas.txt`. Debe calcular el subtotal de cada venta, aplicar un descuento del 10% si el subtotal es mayor o igual a $100, mostrar el total a pagar y guardar al final el total acumulado.
 
-### Indicaciones
+### Requerimiento
 
 - Importar las clases necesarias para manejar archivos y leer datos.
 - Abrir `ventas.txt` en modo append para no eliminar registros anteriores.
