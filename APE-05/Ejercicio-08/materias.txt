@@ -1,0 +1,5 @@
+Fundamentos de Programación
+Lógica Matemática
+Cálculo Diferencial
+Álgebra Lineal
+Física General
