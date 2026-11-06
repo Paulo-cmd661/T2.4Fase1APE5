@@ -130,7 +130,8 @@ Se requiere un programa en Java que registre los datos de 3 estudiantes (nombre 
 
 ### Captura de pantalla
 
-![Ejercicio 1](capturas/ejercicio1.png)
+<img width="1453" height="127" alt="{85CC019D-642F-40CB-AE0F-BFBEA7871C14}" src="https://github.com/user-attachments/assets/f13aab75-422a-49f0-a432-dd6628668dfe" />
+
 
 ---
 
@@ -163,7 +164,8 @@ Se requiere un programa en Java que registre productos (nombre, precio y cantida
 
 ### Captura de pantalla
 
-![Ejercicio 2](capturas/ejercicio2.png)
+<img width="1380" height="278" alt="{CF61B670-E6A9-4CC2-B617-560BD3FE1116}" src="https://github.com/user-attachments/assets/c7d99bac-75fa-4d89-9216-2a43f92a6095" />
+
 
 ---
 
@@ -199,6 +201,6 @@ Se requiere un programa en Java que registre las ventas de una tienda en `ventas
 
 ### Captura de pantalla
 
-![Ejercicio 3](capturas/ejercicio3.png)
+<img width="1325" height="192" alt="{CAE6F3E1-DED1-43B7-944E-B8B2998F00A4}" src="https://github.com/user-attachments/assets/fb7a72a4-ed3b-4745-a037-396e883cc49e" />
 
 
