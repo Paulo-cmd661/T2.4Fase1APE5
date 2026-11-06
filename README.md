@@ -68,7 +68,7 @@ Se necesita un programa en Java que reciba un mensaje escrito por teclado y lo g
 
 ### Captura de pantalla
 <img width="943" height="176" alt="image" src="https://github.com/user-attachments/assets/24b4936f-1827-4ddf-8099-1cb40e7dc64b" />
-
+---
 
 ## Ejercicio 3: Eliminar un fichero en Java
 
