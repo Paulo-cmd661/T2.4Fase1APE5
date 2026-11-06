@@ -33,7 +33,7 @@ Se requiere un programa en Java que genere un archivo de texto con el nombre `cu
 
 ### Captura de pantalla
 <img width="1028" height="173" alt="image" src="https://github.com/user-attachments/assets/7f13c366-872f-40e7-948d-9f987bc7fb41" />
----
+
 
 ## Ejercicio 2: Escribir información en un fichero
 
