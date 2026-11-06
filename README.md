@@ -91,8 +91,107 @@ Se necesita un programa en Java que elimine el archivo de texto `estudiantes.txt
 | `if-else` | Decide qué mensaje mostrar según el resultado de `delete()` |
 | `System.out.println()` | Muestra los mensajes en pantalla |
 
+# Ejercicios de APE clase 2
 
+## Ejercicio 6: Registro de estudiantes y calificaciones
 
+### Planteamiento
+
+Se requiere un programa en Java que registre los datos de 3 estudiantes (nombre y calificación) y los guarde en un archivo de texto llamado `estudiantes.txt`, de modo que cada estudiante ocupe dos líneas.
+
+### Indicaciones
+
+- Importar las clases necesarias para manejar archivos y leer datos.
+- Crear un objeto de tipo `Scanner` para solicitar los datos.
+- Crear un objeto `BufferedWriter` a partir de un `FileWriter`.
+- Usar un ciclo `for` para registrar los 3 estudiantes.
+- Escribir el nombre y la calificación con `write()` y `newLine()`.
+- Cerrar el archivo con `close()`.
+- Controlar los errores con `try-catch`.
+
+### Clases y métodos utilizados
+
+| Elemento | Función |
+|---|---|
+| `Scanner` | Lee por teclado el nombre y la calificación |
+| `FileWriter` | Abre o crea el archivo `estudiantes.txt` |
+| `BufferedWriter` | Escribe el texto en el archivo de forma eficiente |
+| `write()` | Escribe una cadena de texto en el archivo |
+| `newLine()` | Agrega un salto de línea para separar los datos |
+| `close()` | Cierra el archivo y libera los recursos |
+| `IOException` | Excepción que se captura si falla la escritura |
 
 ### Captura de pantalla
-<img width="1003" height="173" alt="image" src="https://github.com/user-attachments/assets/1665a76a-023f-494d-86fa-39cb2c6d43a6" />
+
+![Ejercicio 1](capturas/ejercicio1.png)
+
+---
+
+## Ejercicio 5: Registro de productos con modo Append
+
+### Planteamiento
+
+Se requiere un programa en Java que registre productos (nombre, precio y cantidad), calcule el valor total de cada uno (precio × cantidad) y lo guarde en `productos.txt` sin borrar los registros anteriores.
+
+### Indicaciones
+
+- Importar las clases necesarias para manejar archivos y leer datos.
+- Crear un `Scanner` para solicitar nombre, precio y cantidad.
+- Abrir el archivo en modo append con `new FileWriter("productos.txt", true)`.
+- Calcular el valor total con `precio * cantidad`.
+- Guardar los resultados con `BufferedWriter`.
+- Preguntar si se desea registrar otro producto.
+- Controlar los errores con `try-catch`.
+
+### Clases y métodos utilizados
+
+| Elemento | Función |
+|---|---|
+| `Scanner` | Lee por teclado los datos del producto |
+| `FileWriter(archivo, true)` | Abre el archivo en modo append (conserva lo anterior) |
+| `BufferedWriter` | Escribe los datos del producto en el archivo |
+| `nextDouble()` / `nextInt()` | Leen el precio y la cantidad |
+| `String.format()` | Da formato con dos decimales al valor total |
+| `IOException` | Excepción que se captura si falla la escritura |
+
+### Captura de pantalla
+
+![Ejercicio 2](capturas/ejercicio2.png)
+
+---
+
+## Ejercicio 6: Sistema de registro de ventas
+
+### Planteamiento
+
+Se requiere un programa en Java que registre las ventas de una tienda en `ventas.txt`. Debe calcular el subtotal de cada venta, aplicar un descuento del 10% si el subtotal es mayor o igual a $100, mostrar el total a pagar y guardar al final el total acumulado.
+
+### Indicaciones
+
+- Importar las clases necesarias para manejar archivos y leer datos.
+- Abrir `ventas.txt` en modo append para no eliminar registros anteriores.
+- Repetir el registro con un ciclo `while` hasta que el usuario escriba `fin`.
+- Calcular el subtotal con `precio * cantidad`.
+- Aplicar el descuento del 10% con una condición `if`.
+- Mostrar el total a pagar en pantalla.
+- Acumular el total de todas las ventas.
+- Guardar el total acumulado al finalizar.
+- Controlar los errores con `try-catch`.
+
+### Clases y métodos utilizados
+
+| Elemento | Función |
+|---|---|
+| `Scanner` | Lee el producto, el precio y la cantidad |
+| `equalsIgnoreCase("fin")` | Detecta cuándo el usuario termina el registro |
+| `if (subtotal >= 100)` | Aplica el descuento del 10% |
+| `FileWriter(archivo, true)` | Abre `ventas.txt` en modo append |
+| `BufferedWriter` | Guarda cada venta y el total acumulado |
+| `printf()` | Muestra el total a pagar con formato |
+| `IOException` | Excepción que se captura si falla la escritura |
+
+### Captura de pantalla
+
+![Ejercicio 3](capturas/ejercicio3.png)
+
+
